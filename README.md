@@ -86,7 +86,7 @@ Matriz reducida resultante:
 ## Pregunta 4.1 — Anatomía de la Poda y la Incumbente Temprana
 
 ### Árbol LIFO (DFS) — 34 nodos
-Captura
+<img width="1364" height="551" alt="imagen" src="https://github.com/user-attachments/assets/b7c01c2c-d985-468d-9ee3-ba74c5220648" />
 
 
 **Primera incumbente:** Nodo ID **10**, camino `[A→E→D→C→B]`, costo = **57**.
@@ -94,7 +94,7 @@ Captura
 Bajo LIFO el algoritmo desciende por la rama A→E (apilada al último), llega hasta hoja rápido pero por un camino costoso. La primera solución encontrada (57) está lejos del óptimo porque DFS no distingue qué rama es más prometedora.
 
 ### Árbol Best-First (Least-Cost) — 23 nodos
-Captura
+<img width="1130" height="576" alt="imagen" src="https://github.com/user-attachments/assets/daba2cd2-b4ce-4497-9ad0-c6e184a4fdec" />
 
 
 **Nodo creado pero jamás expandido:** Nodo ID **4**, camino `[A→E]`, LB = **40**.
@@ -124,7 +124,7 @@ El nodo fue instanciado en nivel 1, pero para cuando llegó al frente de la cola
 ## Pregunta 4.2 — Sensibilidad Estructural ante la Función de Acotación
 
 ### Árbol con cota ingenua — 18 nodos
-Captura
+<img width="878" height="581" alt="imagen" src="https://github.com/user-attachments/assets/d70a5aa1-74b3-4835-9344-632c2f3292ff" />
 
 
 ### Tabla comparativa (Best-First)
@@ -156,7 +156,7 @@ Con cota ingenua, el camino `A → C → B → D → E` llega hasta nivel hoja (
 ### Modificación: C→E = 99 (arco prohibitivo)
 
 ### Árbol Best-First con C→E=99 — 23 nodos
-Captura
+<img width="1133" height="562" alt="imagen" src="https://github.com/user-attachments/assets/1adaf6d9-d65c-45ab-b3bc-007774b39f74" />
 
 
 ### Comparación primeros 3 niveles

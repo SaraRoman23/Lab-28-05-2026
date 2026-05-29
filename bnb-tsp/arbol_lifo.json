@@ -1,0 +1,410 @@
+{
+  "nodes": [
+    {
+      "id": 0,
+      "camino": "A",
+      "lb": 21,
+      "estado": "Expandido",
+      "color": "blue",
+      "nivel": 0
+    },
+    {
+      "id": 1,
+      "camino": "A → B",
+      "lb": 29,
+      "estado": "Expandido",
+      "color": "blue",
+      "nivel": 1
+    },
+    {
+      "id": 2,
+      "camino": "A → C",
+      "lb": 27,
+      "estado": "Expandido",
+      "color": "blue",
+      "nivel": 1
+    },
+    {
+      "id": 3,
+      "camino": "A → D",
+      "lb": 29,
+      "estado": "Expandido",
+      "color": "blue",
+      "nivel": 1
+    },
+    {
+      "id": 4,
+      "camino": "A → E",
+      "lb": 40,
+      "estado": "Expandido",
+      "color": "blue",
+      "nivel": 1
+    },
+    {
+      "id": 5,
+      "camino": "A → E → B",
+      "lb": 52,
+      "estado": "Podado por Cota",
+      "color": "red",
+      "nivel": 2
+    },
+    {
+      "id": 6,
+      "camino": "A → E → C",
+      "lb": 43,
+      "estado": "Podado por Cota",
+      "color": "red",
+      "nivel": 2
+    },
+    {
+      "id": 7,
+      "camino": "A → E → D",
+      "lb": 40,
+      "estado": "Expandido",
+      "color": "blue",
+      "nivel": 2
+    },
+    {
+      "id": 8,
+      "camino": "A → E → D → B",
+      "lb": 40,
+      "estado": "Expandido",
+      "color": "blue",
+      "nivel": 3
+    },
+    {
+      "id": 9,
+      "camino": "A → E → D → C",
+      "lb": 57,
+      "estado": "Expandido",
+      "color": "blue",
+      "nivel": 3
+    },
+    {
+      "id": 10,
+      "camino": "A → E → D → C → B",
+      "lb": 57,
+      "estado": "Solución Completa",
+      "color": "green",
+      "nivel": 4
+    },
+    {
+      "id": 11,
+      "camino": "A → E → D → B → C",
+      "lb": 40,
+      "estado": "Solución Completa",
+      "color": "green",
+      "nivel": 4
+    },
+    {
+      "id": 12,
+      "camino": "A → D → B",
+      "lb": 32,
+      "estado": "Expandido",
+      "color": "blue",
+      "nivel": 2
+    },
+    {
+      "id": 13,
+      "camino": "A → D → C",
+      "lb": 52,
+      "estado": "Podado por Cota",
+      "color": "red",
+      "nivel": 2
+    },
+    {
+      "id": 14,
+      "camino": "A → D → E",
+      "lb": 29,
+      "estado": "Expandido",
+      "color": "blue",
+      "nivel": 2
+    },
+    {
+      "id": 15,
+      "camino": "A → D → E → B",
+      "lb": 33,
+      "estado": "Expandido",
+      "color": "blue",
+      "nivel": 3
+    },
+    {
+      "id": 16,
+      "camino": "A → D → E → C",
+      "lb": 35,
+      "estado": "Expandido",
+      "color": "blue",
+      "nivel": 3
+    },
+    {
+      "id": 17,
+      "camino": "A → D → E → C → B",
+      "lb": 35,
+      "estado": "Solución Completa",
+      "color": "green",
+      "nivel": 4
+    },
+    {
+      "id": 18,
+      "camino": "A → D → E → B → C",
+      "lb": 33,
+      "estado": "Solución Completa",
+      "color": "green",
+      "nivel": 4
+    },
+    {
+      "id": 19,
+      "camino": "A → D → B → C",
+      "lb": 45,
+      "estado": "Podado por Cota",
+      "color": "red",
+      "nivel": 3
+    },
+    {
+      "id": 20,
+      "camino": "A → D → B → E",
+      "lb": 37,
+      "estado": "Podado por Cota",
+      "color": "red",
+      "nivel": 3
+    },
+    {
+      "id": 21,
+      "camino": "A → C → B",
+      "lb": 27,
+      "estado": "Expandido",
+      "color": "blue",
+      "nivel": 2
+    },
+    {
+      "id": 22,
+      "camino": "A → C → D",
+      "lb": 46,
+      "estado": "Podado por Cota",
+      "color": "red",
+      "nivel": 2
+    },
+    {
+      "id": 23,
+      "camino": "A → C → E",
+      "lb": 30,
+      "estado": "Expandido",
+      "color": "blue",
+      "nivel": 2
+    },
+    {
+      "id": 24,
+      "camino": "A → C → E → B",
+      "lb": 36,
+      "estado": "Podado por Cota",
+      "color": "red",
+      "nivel": 3
+    },
+    {
+      "id": 25,
+      "camino": "A → C → E → D",
+      "lb": 30,
+      "estado": "Expandido",
+      "color": "blue",
+      "nivel": 3
+    },
+    {
+      "id": 26,
+      "camino": "A → C → E → D → B",
+      "lb": 30,
+      "estado": "Solución Completa",
+      "color": "green",
+      "nivel": 4
+    },
+    {
+      "id": 27,
+      "camino": "A → C → B → D",
+      "lb": 37,
+      "estado": "Podado por Cota",
+      "color": "red",
+      "nivel": 3
+    },
+    {
+      "id": 28,
+      "camino": "A → C → B → E",
+      "lb": 34,
+      "estado": "Podado por Cota",
+      "color": "red",
+      "nivel": 3
+    },
+    {
+      "id": 29,
+      "camino": "A → B → C",
+      "lb": 29,
+      "estado": "Expandido",
+      "color": "blue",
+      "nivel": 2
+    },
+    {
+      "id": 30,
+      "camino": "A → B → D",
+      "lb": 32,
+      "estado": "Podado por Cota",
+      "color": "red",
+      "nivel": 2
+    },
+    {
+      "id": 31,
+      "camino": "A → B → E",
+      "lb": 44,
+      "estado": "Podado por Cota",
+      "color": "red",
+      "nivel": 2
+    },
+    {
+      "id": 32,
+      "camino": "A → B → C → D",
+      "lb": 57,
+      "estado": "Podado por Cota",
+      "color": "red",
+      "nivel": 3
+    },
+    {
+      "id": 33,
+      "camino": "A → B → C → E",
+      "lb": 37,
+      "estado": "Podado por Cota",
+      "color": "red",
+      "nivel": 3
+    }
+  ],
+  "edges": [
+    {
+      "from": 0,
+      "to": 1
+    },
+    {
+      "from": 0,
+      "to": 2
+    },
+    {
+      "from": 0,
+      "to": 3
+    },
+    {
+      "from": 0,
+      "to": 4
+    },
+    {
+      "from": 4,
+      "to": 5
+    },
+    {
+      "from": 4,
+      "to": 6
+    },
+    {
+      "from": 4,
+      "to": 7
+    },
+    {
+      "from": 7,
+      "to": 8
+    },
+    {
+      "from": 7,
+      "to": 9
+    },
+    {
+      "from": 9,
+      "to": 10
+    },
+    {
+      "from": 8,
+      "to": 11
+    },
+    {
+      "from": 3,
+      "to": 12
+    },
+    {
+      "from": 3,
+      "to": 13
+    },
+    {
+      "from": 3,
+      "to": 14
+    },
+    {
+      "from": 14,
+      "to": 15
+    },
+    {
+      "from": 14,
+      "to": 16
+    },
+    {
+      "from": 16,
+      "to": 17
+    },
+    {
+      "from": 15,
+      "to": 18
+    },
+    {
+      "from": 12,
+      "to": 19
+    },
+    {
+      "from": 12,
+      "to": 20
+    },
+    {
+      "from": 2,
+      "to": 21
+    },
+    {
+      "from": 2,
+      "to": 22
+    },
+    {
+      "from": 2,
+      "to": 23
+    },
+    {
+      "from": 23,
+      "to": 24
+    },
+    {
+      "from": 23,
+      "to": 25
+    },
+    {
+      "from": 25,
+      "to": 26
+    },
+    {
+      "from": 21,
+      "to": 27
+    },
+    {
+      "from": 21,
+      "to": 28
+    },
+    {
+      "from": 1,
+      "to": 29
+    },
+    {
+      "from": 1,
+      "to": 30
+    },
+    {
+      "from": 1,
+      "to": 31
+    },
+    {
+      "from": 29,
+      "to": 32
+    },
+    {
+      "from": 29,
+      "to": 33
+    }
+  ]
+}
